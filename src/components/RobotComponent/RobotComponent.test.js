@@ -5,7 +5,7 @@ import RobotComponent from "./RobotComponent";
 
 describe("Given a RobotComponent", () => {
   describe("When it's rendered", () => {
-    test("Then it should render a listitem with a heading inside", () => {
+    test("Then it should render an list item with a heading inside", () => {
       render(
         <Provider store={store}>
           <RobotComponent />
