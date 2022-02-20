@@ -6,7 +6,6 @@ import { loadRobotsListThunk } from "../../redux/thunk/robotsThunk";
 
 const PageComponent = () => {
   const robotsList = useSelector((state) => state.robotsList);
-  console.log(robotsList.robot);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadRobotsListThunk);

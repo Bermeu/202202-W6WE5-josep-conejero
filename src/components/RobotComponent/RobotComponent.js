@@ -10,7 +10,7 @@ const RobotComponent = ({
 }) => {
   return (
     <>
-      <StyledRobot>
+      <StyledRobot key={id}>
         <h2>Name: {name}</h2>
         <img src={picture} alt={`Robot ${name}`} />
         <span>
