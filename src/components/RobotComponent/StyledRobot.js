@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 const StyledRobot = styled.li`
-  background-color: white;
   display: flex;
   flex-direction: column;
   img {
-    width: 200px;
-    height: 400px;
+    width: 220px;
+    height: 440px;
   }
 
   h2 {

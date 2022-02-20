@@ -14,7 +14,7 @@ const RobotComponent = ({
         <h2>Name: {name}</h2>
         <img src={picture} alt={`Robot ${name}`} />
         <span>
-          <p>Speed: {velocity}</p>
+          <p>Velocity: {velocity}</p>
           <p>Resistance: {resistance}</p>
           <p>Creation date: {creationDate}</p>
         </span>
