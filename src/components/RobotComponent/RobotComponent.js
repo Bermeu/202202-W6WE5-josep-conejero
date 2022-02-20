@@ -1,7 +1,6 @@
 import StyledRobot from "./StyledRobot";
 
 const RobotComponent = ({
-  id,
   name,
   picture,
   velocity,
@@ -10,7 +9,7 @@ const RobotComponent = ({
 }) => {
   return (
     <>
-      <StyledRobot key={id}>
+      <StyledRobot>
         <h2>Name: {name}</h2>
         <img src={picture} alt={`Robot ${name}`} />
         <span>

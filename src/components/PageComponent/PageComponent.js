@@ -17,8 +17,7 @@ const PageComponent = () => {
         {robotsList.map((robot) => {
           return (
             <RobotComponent
-              key={robot.id}
-              id={robot._id}
+              key={robot._id}
               name={robot.name}
               picture={robot.picture}
               velocity={robot.velocity}
