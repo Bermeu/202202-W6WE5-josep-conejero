@@ -18,6 +18,7 @@ const PageComponent = () => {
           return (
             <RobotComponent
               key={robot.id}
+              id={robot._id}
               name={robot.name}
               picture={robot.picture}
               velocity={robot.velocity}
